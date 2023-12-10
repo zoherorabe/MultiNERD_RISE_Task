@@ -49,7 +49,8 @@ This repository contains code for training and evaluating Named Entity Recogniti
 
 
 ### Results
-- if you want to evaluate the system A, B from the saved models. you need to download the models folder from 
+
+if you want to evaluate the system A, B from the saved models. you need to download the models folder from 
 (https://drive.google.com/drive/folders/1MdrUff6Xwp0291FluX5qmMYEwTtUbPYf?usp=share_link)
 
 #### System A
