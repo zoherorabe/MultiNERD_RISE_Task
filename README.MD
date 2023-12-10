@@ -15,7 +15,7 @@ This repository contains code for training and evaluating Named Entity Recogniti
 1. Clone this repository:
 
     ```bash
-    git clone https://github.com/your-username/ner-model.git
+    git clone https://github.com/zoherorabe/MultiNERD_RISE_Task.git
     cd ner-model
     ```
 
