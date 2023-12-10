@@ -2,6 +2,10 @@
 
 This repository contains code for training and evaluating Named Entity Recognition (NER) models for English using the MultiNERD dataset. The code uses Hugging Face's Transformers library and fine-tunes a transformer-based language model for NER.
 
+## Dataset Information
+- MultiNERD Named Entity Recognition dataset: https://huggingface.co/datasets/Babelscape/multinerd?row=17 
+- Accompanying paper: https://aclanthology.org/2022.findings-naacl.60.pdf
+
 ## Getting Started
 
 ### Prerequisites
