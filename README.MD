@@ -75,3 +75,9 @@ In our NER experiments using the MultiNERD dataset, we employed the "distilbert-
 Conversely, System B, fine-tuned on a reduced set of five entity types using the same "distilbert-base-cased" model, showed superior overall recall, precision, and F1 scores (95.7%, 95.1%, 95.4% respectively). The specialized model proved effective in recognizing specific entities such as locations and organizations.
 
 However, it's crucial to acknowledge the limitations of using a distilled model like "distilbert-base-cased." While it offers computational efficiency, its reduced complexity may result in a trade-off in capturing intricate relationships and nuances within the data. Additionally, the model's performance heavily depends on the quality and representativeness of the training data, and variations in the dataset may impact generalization. Further exploration with more complex models and diverse datasets could provide insights into overcoming these limitations and refining the balance between model efficiency and performance.
+
+## Evaluation Limitations
+- **System A:** While "distilbert-base-cased" offers a good balance, using a larger model like "bert-base-cased" might improve performance, especially on complex NER tasks, but it takes more hours for training. also it might be a good idea to explore Roberta model as well.
+
+- **System B:** the same limitation for System A. Although achieving high overall metrics, the choice of a simplified model and label set might limit its performance on certain nuanced entity types.
+
