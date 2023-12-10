@@ -43,11 +43,14 @@ This repository contains code for training and evaluating Named Entity Recogniti
 2. Choose a pre-trained language model from the [Hugging Face Model Hub](https://huggingface.co/models) (e.g., `distilbert-base-cased`).
 
 
+
 ### Training:
 1. follow the ner_task.ipynb notebook to train and evaluate the `distilbert-base-cased` on the MultiNERD dataset
 
 
 ### Results
+- if you want to evaluate the system A, B from the saved models. you need to download the models folder from 
+(https://drive.google.com/drive/folders/1MdrUff6Xwp0291FluX5qmMYEwTtUbPYf?usp=share_link)
 
 #### System A
 
